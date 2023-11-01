@@ -1,0 +1,29 @@
+.page {
+    background-color: #AFBFC0;
+    color: #2D2327;
+}
+
+.page h1{
+    text-align: center;
+    padding: 4%;
+    font-style: italic;
+    font-size: 4vw;
+}
+
+.page blockquote {
+    font-size: 1.7vw;
+    margin: 3%;
+    padding: 1%;
+    border-left: 2px solid #2D2327;
+}
+
+.page img {
+    margin-block: 4%;
+}
+
+.page p {
+    font-size: 2vw;
+    margin-bottom: 30px;
+    margin-inline: 10%;
+}
+

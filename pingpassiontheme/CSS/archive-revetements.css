@@ -1,0 +1,73 @@
+.post-type-archive-revetements {
+	background-color: #C2D3CD;
+}
+
+.post-type-archive-revetements .page-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2327;
+    color: #AFBFC0;
+    height: 100px;
+}
+
+.post-type-archive-revetements .revetements {
+    margin-top: 40px;
+}
+
+.post-type-archive-revetements .revetements-card {
+    display: flex;
+    align-items: center;
+    margin-inline: 20%;
+}
+
+.post-type-archive-revetements .revetements-card img {
+    width: 300px;
+    height: 300px;
+}
+
+.post-type-archive-revetements .revetements-card_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #2D2327;
+    color: #AFBFC0;
+    gap: 30px;
+}
+
+.post-type-archive-revetements .revetements-card_content h2 {
+    font-size: 2.6vw;
+}
+
+.post-type-archive-revetements .revetements-card_content p {
+    font-size: 1.1vw;
+}
+
+.revetements-card_content a {
+    display: block;
+    width: 100%;
+    background-color: #AFBFC0;
+    color: #2D2327;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 8px;
+}
+
+.revetements-card_content a:hover {
+    color: #2D2327;
+    background-color: #8e9b9c;
+
+}
+
+.revetements-card_content a:active {
+    color: #2D2327;
+}
+
+.revetements-card_content a:visited {
+    color: #2D2327;
+}

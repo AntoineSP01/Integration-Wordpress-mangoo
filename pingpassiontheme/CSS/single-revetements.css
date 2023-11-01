@@ -1,0 +1,70 @@
+.single-revetements {
+    background-color: #AFBFC0;
+}
+
+.single-revetements h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    line-height: 1;
+    margin-bottom: 0.2em;
+    background-color: #2D2327;
+    color: #AFBFC0;
+    height: 100px;
+}
+
+.single-revetements p {
+    color: #2D2327;
+}
+
+.single-revetements-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-revetements-card img {
+    width: 40%;
+    height: 10%;
+    padding: 2%;
+}
+
+.single-revetements-card_content {
+    padding: 2%;
+    font-size: 1.5vw;
+}
+
+.single-revetements .nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.single-revetements span{
+    font-size: 1.6vw;
+    margin-bottom: 0.2em;
+    color: #2D2327;
+}
+
+.single-revetements .informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D2327;
+    padding-block: 2%;
+    gap: 23px;
+    margin-block: 2%;
+}
+
+.single-revetements .informations h2 {
+    color: #AFBFC0;
+    font-size: 1.9vw;
+}
+
+.single-revetements .informations p {
+    color: #AFBFC0;
+    font-size: 1.2vw;
+}

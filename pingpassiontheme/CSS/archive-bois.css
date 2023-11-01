@@ -1,0 +1,73 @@
+.post-type-archive-bois {
+	background-color: #2D2327;
+}
+
+.post-type-archive-bois .page-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #AFBFC0;
+    color: #2D2327;
+    height: 100px;
+}
+
+.post-type-archive-bois .bois {
+    margin-top: 40px;
+}
+
+.post-type-archive-bois .bois-card {
+    display: flex;
+    align-items: center;
+    margin-inline: 20%;
+}
+
+.post-type-archive-bois .bois-card img {
+    width: 300px;
+    height: 300px;
+}
+
+.post-type-archive-bois .bois-card_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #AFBFC0;
+    color: #2D2327;
+    gap: 30px;
+}
+
+.post-type-archive-bois .bois-card_content h2 {
+    font-size: 2.6vw;
+}
+
+.post-type-archive-bois .bois-card_content p {
+    font-size: 1.1vw;
+}
+
+.bois-card_content a {
+    display: block;
+    width: 100%;
+    background-color: #2D2327;
+    color: #AFBFC0;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 8px;
+}
+
+.bois-card_content a:hover {
+    color: #AFBFC0;
+    background-color: #181315;
+
+}
+
+.bois-card_content a:active {
+    color: #AFBFC0;
+}
+
+.bois-card_content a:visited {
+    color: #AFBFC0;
+}

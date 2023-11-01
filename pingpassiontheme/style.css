@@ -1,0 +1,132 @@
+/*!
+Theme Name: PingPassionTheme
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: pingpassiontheme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+PingPassionTheme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+@import url(CSS/archive-revetements.css);
+@import url(CSS/archive-bois.css);
+@import url(CSS/single-bois.css);
+@import url(CSS/single-revetements.css);
+@import url(CSS/page-accueil.css);	
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #2D2327;
+	text-decoration: none;
+	position: sticky;
+}
+
+.header-menu {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	margin-block: 0;
+	margin-right: 30px;
+	text-decoration: none;
+}
+
+.header-menu li {
+	padding-block: 30px;
+}
+
+.header-menu li a {
+	color: #AFBFC0;
+	text-decoration: none;
+	font-size: 1.5vw;
+}
+
+.header-menu li a:hover {
+	color: #97a5a0;
+}
+
+.site-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2D2327;
+	font-size: 3vw;
+	padding: 3%;
+}
+
+.site-footer p{
+	color: #AFBFC0;
+}
+
+.logo {
+	width: 30%;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 5px;
+}

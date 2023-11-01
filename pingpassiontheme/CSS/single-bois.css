@@ -1,0 +1,70 @@
+.single-bois {
+    background-color: #2D2327;
+}
+
+.single-bois h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    line-height: 1;
+    margin-bottom: 0.2em;
+    background-color: #AFBFC0;
+    color: #2D2327;
+    height: 100px;
+}
+
+.single-bois p {
+    color: #AFBFC0;
+}
+
+.single-bois-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-bois-card img {
+    width: 40%;
+    height: 10%;
+    padding: 2%;
+}
+
+.single-bois-card_content {
+    padding: 2%;
+    font-size: 1.5vw;
+}
+
+.single-bois .nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.single-bois span{
+    font-size: 1.6vw;
+    margin-bottom: 0.2em;
+    color: #AFBFC0;
+}
+
+.single-bois .informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #AFBFC0;
+    padding-block: 2%;
+    gap: 23px;
+    margin-block: 2%;
+}
+
+.single-bois .informations h2 {
+    color: #2D2327;
+    font-size: 1.9vw;
+}
+
+.single-bois .informations p {
+    color: #2D2327;
+    font-size: 1.2vw;
+}
